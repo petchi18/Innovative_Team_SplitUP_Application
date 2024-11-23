@@ -1,0 +1,156 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #e0f7fa;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 900px;
+    text-align: center;
+    animation: slideIn 1s ease-out, shadowPulse 2s ease-in-out infinite;
+    position: relative;
+}
+
+/* Animation for sliding the container in from the bottom */
+@keyframes slideIn {
+    0% {
+        transform: translateY(50px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+/* Animation for pulsing shadow effect */
+@keyframes shadowPulse {
+    0% {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+    50% {
+        box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+    }
+    100% {
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    }
+}
+
+/* Rest of your styles */
+h1 {
+    font-size: 40px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 20px;
+    color: #34495e;
+    margin-bottom: 30px;
+}
+
+.buttons-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+.team-button {
+    background-color: #3498db;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-button:hover {
+    transform: scale(1.05);
+    background-color: #2980b9;
+}
+
+.team-info {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-info h3 {
+    font-size: 24px;
+    color: #27ae60;
+    margin-bottom: 10px;
+}
+
+.team-info ul {
+    font-size: 20px;
+    color: #2c3e50;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.team-info ul li {
+    padding: 5px 0;
+    font-weight: 500;
+}
+
+/* Styling for the 'Show Quote' button */
+#quote-button {
+    background-color: #2ecc71;
+    color: white;
+    font-size: 18px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#quote-button:hover {
+    transform: scale(1.05);
+    background-color: #27ae60;
+}
+
+#quote-button:focus {
+    outline: none;
+}
+
+#quote-button:active {
+    transform: scale(0.98);
+    background-color: #2ecc71;
+}
+
+/* Transition for displaying team info */
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.team-info {
+    animation: fadeIn 0.5s ease-in;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Reveal Application</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Team Split-Up</h1>
+        <p>Click a team to reveal the team members and a special quote!</p>
+
+        <div class="buttons-container">
+            <button onclick="revealTeam(1)" class="team-button" style="background-color: #f06292;">Team 1</button>
+            <button onclick="revealTeam(2)" class="team-button" style="background-color: #ba68c8;">Team 2</button>
+            <button onclick="revealTeam(3)" class="team-button" style="background-color: #81c784;">Team 3</button>
+            <button onclick="revealTeam(4)" class="team-button" style="background-color: #ffb74d;">Team 4</button>
+            <button onclick="revealTeam(5)" class="team-button" style="background-color: #64b5f6;">Team 5</button>
+            <button onclick="revealTeam(6)" class="team-button" style="background-color: #4caf50;">Team 6</button>
+            <button onclick="revealTeam(7)" class="team-button" style="background-color: #ff7043;">Team 7</button>
+            <button onclick="revealTeam(8)" class="team-button" style="background-color: #ffeb3b;">Team 8</button>
+            <button onclick="revealTeam(9)" class="team-button" style="background-color: #9e9e9e;">Team 9</button>
+            <button onclick="revealTeam(10)" class="team-button" style="background-color: #7e57c2;">Team 10</button>
+            <button onclick="revealTeam(11)" class="team-button" style="background-color: #f44336;">Team 11</button>
+        </div>
+
+        <div id="team-info" class="team-info">
+            <!-- The team information will appear here after clicking a button -->
+        </div>
+
+        <button id="quote-button" onclick="revealQuote()" style="display: none;">Show Quote</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
