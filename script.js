@@ -10,7 +10,7 @@ const teams = [
     { name: "Team 8", students: ["JENIFER MERCY P (Team Lead)", "INBASRUTHI J (Sub Lead)", "GOKUL S", "HARISH M"], quote: "A good team is like a puzzle—when one piece is missing, it doesn’t work." },
     { name: "Team 9", students: ["KAMALA V ADARSHINI (Team Lead)", "JANANE J M (Sub Lead)", "HARISGURURAJ P", "JAYANTHAN S", "JOEL JERRY DANISH P"], quote: "A great team is not a group of people who work together, but a group of people who trust each other." },
     { name: "Team 10", students: ["KAMALESH KUMAR V (Team Lead)", "DINESH R (Sub Lead)", "HAJAMYDEEN J", "JAISHREE M", "DHARANEESH U"], quote: "Teamwork divides the task and multiplies the success." },
-    { name: "Team 11", students: ["ARSHED HOSHAM ELHAG YOUSIF (Team Lead) (Sub Lead)", "DINESHKUMAR S K", "DEEPIKA R", "HARSHINI S", "DEVASENAN S S"], quote: "There is no 'I' in team, but there is a 'we'." }
+    { name: "Team 11", students: ["ARSHED HOSHAM ELHAG YOUSIF (Team Lead) ", "DINESHKUMAR S K (Sub Lead)", "DEEPIKA R", "HARSHINI S", "DEVASENAN S S"], quote: "There is no 'I' in team, but there is a 'we'." }
 ];
 
 
