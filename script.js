@@ -6,7 +6,7 @@ const teams = [
     { name: "Team 4", students: ["ASHVITHA SHREE S (Team Lead)","ARUL SELVAN S (Sub Lead)", "APURVA LAKSHMI K", "BHARATH R P"], quote: "Teamwork divides the task and multiplies the success." },
     { name: "Team 5", students: ["ATCHAYA S (Team Lead)", "BARANIDHARAN R (Sub Lead)", "BHARANIDHARAN T S", "BHAVANA M", "BAZEERAHAMED R"], quote: "A successful team is a group of many hands but of one mind." },
     { name: "Team 6", students: ["DEEBIKA P (Team Lead)","GHAYATHREE R S (Sub Lead)", "DEV THARUNEES R", "DANABAL L", "DEVI SHREE VIJAY THENU"], quote: "Great things are never done by one person, they're done by a team of people." },
-    { name: "Team 7", students: ["DEVANATHAN M (Team Lead)", "HEMAVARSHINI K (Sub Lead)", "DHAARANII S", "DEEPAK KUMAR M"], quote: "If everyone is moving forward together, then success takes care of itself." },
+    { name: "Team 7", students: ["DEVANATHAN M (Team Lead)", "HEMAVARSHINI K (Sub Lead)", "DHARSHINI","DHAARANII S", "DEEPAK KUMAR M"], quote: "If everyone is moving forward together, then success takes care of itself." },
     { name: "Team 8", students: ["JENIFER MERCY P (Team Lead)", "INBASRUTHI J (Sub Lead)", "GOKUL S", "HARISH M"], quote: "A good team is like a puzzle—when one piece is missing, it doesn’t work." },
     { name: "Team 9", students: ["KAMALA V ADARSHINI (Team Lead)", "JANANE J M (Sub Lead)", "HARISGURURAJ P", "JAYANTHAN S", "JOEL JERRY DANISH P"], quote: "A great team is not a group of people who work together, but a group of people who trust each other." },
     { name: "Team 10", students: ["KAMALESH KUMAR V (Team Lead)", "DINESH R (Sub Lead)", "HAJAMYDEEN J", "JAISHREE M", "DHARANEESH U"], quote: "Teamwork divides the task and multiplies the success." },
